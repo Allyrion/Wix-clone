@@ -14,7 +14,22 @@
 nav {
     display: grid;
     justify-content: right;
+    grid-template-columns: 453px 144px;
+    align-items: center;
 }
+
+nav ul {
+    list-style: none;
+    justify-items: right;
+    justify-content: end;
+    
+}
+
+#nav-grid {
+    grid-template-columns: 72px 72px 107px 97px 62px;
+    margin: 20px;
+}
+
 
 header {
     display: grid;
