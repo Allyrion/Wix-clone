@@ -1,0 +1,36 @@
+#header-hero {
+    background-image: url(../img/hero\ image.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+#header-hero a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    display: grid;
+    justify-content: right;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 107px;
+    align-items: center;
+}
+
+.logo-area {
+    column-gap: 20px;
+    justify-content: left;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+#name {
+    text-align: right;
+}
