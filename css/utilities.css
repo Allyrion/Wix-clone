@@ -78,3 +78,13 @@
 a {
     text-decoration: none;
 }
+
+.section-title {
+    letter-spacing: 0.5em;
+    line-height: 1.2em;
+    font-size: 19px;
+    font: helvetica;
+    font-weight: bold;
+    text-transform:uppercase;
+    color: rgb(117, 117, 117);
+}
