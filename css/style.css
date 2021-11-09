@@ -10,7 +10,6 @@
 
 #header-hero a {
     text-decoration: none;
-    color: white;
 }
 
 nav {
@@ -18,18 +17,28 @@ nav {
     justify-content: right;
     grid-template-columns: 453px 144px;
     align-items: center;
+    margin: 0 50px;
+    
 }
 
 nav ul {
     list-style: none;
     justify-items: right;
     justify-content: end;
-    
+}
+
+nav a {
+    color: white;
 }
 
 #nav-grid {
     grid-template-columns: 72px 72px 107px 97px 62px;
-    margin: 20px;
+    margin: 20px 30px;
+    column-gap: 5px;
+}
+
+nav a .text-blue {
+    color: #15e0fb;
 }
 
 

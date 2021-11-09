@@ -57,3 +57,20 @@
 .text-blue {
     color: #15e0fb;
 }
+
+.btn {
+    padding: 5px;
+    font-weight: bold;
+    border-style: solid;
+    text-align: center;
+}
+
+.btn-primary {
+    border-color: #15e0fb;
+    color: #15e0fb;
+}
+
+.btn-primary:hover {
+    background-color: #15e0fb;
+    color: black;
+}
