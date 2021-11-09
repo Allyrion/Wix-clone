@@ -74,3 +74,7 @@
     background-color: #15e0fb;
     color: black;
 }
+
+a {
+    text-decoration: none;
+}
