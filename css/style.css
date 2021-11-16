@@ -230,3 +230,16 @@ footer {
     font-size: 16px;
     color: white;
 }
+
+
+/* Static image */
+
+#static-image {
+    height: 483px;
+    background-image: url('/img/static\ image.webp');
+    margin-left: -79px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+}
