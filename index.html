@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/utilities.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script src="js/slides.js"></script>
     <title>Motivational Speaker</title>
 </head>
 <body class="helvetica">
@@ -32,7 +34,7 @@
         </header>
         <div id="hero-section">
             <div class="align-center">
-                <h1 class="text-white animate__animated animate__slideInUp">I Help <br>Oragnizations <br>Reshape Their <br>Workplace Culture</h1>
+                <h1 class="text-white animate__animated animate__fadeInUp">I Help <br>Orgnizations <br>Reshape Their <br>Workplace Culture</h1>
             </div>
         </div>
     </div>
@@ -40,34 +42,34 @@
 
         <section id="about">
             <h2 class="section-title">About</h2>
-            <div>
+            <div class="grid grid-col-2">
                 <img src="img/about portrait.webp" alt="portrait of Dr. Avens">
-                <div>
-                    <p>Jeremy Avens is the author of the successful book "Big Boss, Little Boss", and advises to organizations on how to create a motivating, creative and educating workplace.</p>
-                    <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                <div id="about-text">
+                    <p class="font-big-bold animate__animated animate__fadeInUp">Jeremy Avens is the author of the successful book "Big Boss, Little Boss", and advises to organizations on how to create a motivating, creative and educating workplace.</p>
+                    <p class="font-big animate__animated animate__fadeInUp">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
                 </div>
             </div>
 
         </section>
 
         <section id="publications">
-            <div>
-                <h2 class="section-title"></h2>
-                <p>I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you.</p>
-                <a href="" class="btn btn-primary">More Publications</a>
+            <div id="publication-text">
+                <h2 class="section-title animate__animated animate__fadeInUp">Publications</h2>
+                <p class="text-white font-big-bold animate__animated animate__fadeInUp">I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you.</p>
+                <a id="pub-btn" href="" class="btn btn-primary animate__animated animate__fadeInUp">More Publications</a>
             </div>
             <div class="slideshow-container">
 
-                <div class="mySlides fade">
-                    <img src="img1.jpg">
+                <div id="book1" class="mySlides animate__animated animate__slideInRight">
+                    <img src="img/Avens book 1.webp">
                 </div>
                 
-                <div class="mySlides fade">
-                    <img src="img2.jpg">
+                <div class="mySlides animate__animated animate__slideInRight">
+                    <img src="img/Avens book 2.webp">
                 </div>
                 
-                <div class="mySlides fade">
-                    <img src="img3.jpg">
+                <div class="mySlides animate__animated animate__slideInRight">
+                    <img src="img/Avens book 3.webp">
                 </div>
 
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -76,34 +78,31 @@
         </section>
 
         <section id="speaking">
-            <h2 class="section-title"></h2>
-            <p>I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you.</p>
+            <h2 class="section-title animate__animated animate__fadeInUp">Speaking</h2>
+            <p class="font-big-bold animate__animated animate__fadeInUp">I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you.</p>
 
             <div class="video-grid">
                 <div class="video-box">
-                    <div class="video-image">
-                        <i class="far fa-play-circle"></i>
-                        <p>Play Video</p>
+                    <div id="video1" class="video-image">
+                        <i class="far fa-play-circle fa-3x"></i>
                     </div>
-                    <a href="">Jeremy Evans on Changing the Business Paradigm</a>
+                    <a class="video-text" href="">Jeremy Evans on Changing the Business Paradigm</a>
                 </div>
                 <div class="video-box">
-                    <div class="video-image">
-                        <i class="far fa-play-circle"></i>
-                        <p>Play Video</p>
+                    <div id="video2" class="video-image">
+                        <i class="far fa-play-circle fa-3x"></i>
                     </div>
-                    <a href="">PBN Interview on Corporate Culture</a>
+                    <a class="video-text" href="">PBN Interview on Corporate Culture</a>
                 </div>
                 <div class="video-box">
-                    <div class="video-image">
-                        <i class="far fa-play-circle"></i>
-                        <p>Play Video</p>
+                    <div id="video3" class="video-image">
+                        <i class="far fa-play-circle fa-3x"></i>
                     </div>
-                    <a href="">Jeremy Evans on Business Forum 2023</a>
+                    <a class="video-text" href="">Jeremy Evans on Business Forum 2023</a>
                 </div>
             </div>
 
-            <a class="btn btn-secondary" href="">Book Dr. Avens</a>
+            <a class="btn btn-secondary animate__animated animate__fadeInUp" href="">Book Dr. Avens</a>
         </section>
 
     </main>
@@ -111,39 +110,41 @@
     <footer>
 
         <section id="awards">
-            <h2 class="section-title"></h2>
-            <div class="award-grid">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+            <h2 class="section-title">As Featured In</h2>
+            <div class="award-grid animate__animated animate__fadeInUp">
+                <img src="img/award1.png" alt="">
+                <img class="award-center" src="img/award2.png" alt="">
+                <img class="award-end" src="img/award3.png" alt="">
+                <img class="award-end" src="img/award4.png" alt="">
             </div>
         </section>
 
         <section id="contact">
-            <div id="contact-info">
+            <div id="contact-info animate__animated animate__fadeInUp">
                 <p>info@mysite.com</p>
                 <p>123-456-7890</p>
                 <div>
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                    <img src="img/linkedin.webp" alt="">
+                    <img src="img/facebook.webp" alt="">
+                    <img src="img/twitter.webp" alt="">
+                    <img src="img/instagram.webp" alt="">
                 </div>
             </div>
-            <div id="address-info">
+            <div id="address-info animate__animated animate__fadeInUp">
                 <p>500 Terry Francois Street</p>
                 <p>Francisco, CA 94158</p>
             </div>
         </section>
+
+        <div id="copyright-info">
+            <p>
+                ©2023 by Jeremy Avens. <br>
+                Proudly created by Kishan Solomon.
+            </p>
+        </div>
     </footer>
 
-    <div id="copyright-info">
-        <p>
-            ©2023 by Jeremy Avens. <br>
-            Proudly created by Kishan Solomon.
-        </p>
-    </div>
+
     
 </body>
 </html>

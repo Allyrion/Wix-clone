@@ -89,3 +89,144 @@ main {
     display: grid;
     row-gap: 50px;
 }
+
+/* Publications section */
+
+#publications {
+    background-color: black;
+    margin-left: -79px;
+    border-width: 180px 77px;
+    border-color: black;
+    border-style: solid;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+#publication-text {
+    display: grid;
+    row-gap: 60px;
+    margin-right: 70px;
+    
+}
+
+#pub-btn {
+    font-size: 20px;
+    margin-right: 320px;
+    margin-top: -50px;
+    align-self: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.slideshow-container {
+    justify-self: end;
+    justify-self: center;
+}
+
+.prev, .next {
+    cursor: pointer;
+    color: rgb(117, 117, 117);
+    transition: 0.6s ease;
+    border-radius: 0 10px 10px 0;
+    font-size: 30px;
+    position: absolute;
+}
+
+.prev {
+    margin-top: -250px;
+    margin-left: -50px;
+}
+
+.next {
+    margin-top: -250px;
+    margin-left: 345px;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+  }
+#book1 {
+    display: inline-block;
+}
+
+
+/* Speaking section */
+
+#speaking {
+    background-color: white;
+    margin-left: -79px;
+    border-width: 180px 77px;
+    border-color: white;
+    border-style: solid;
+    display: grid;
+    row-gap: 60px;
+}
+
+
+#video1 {
+    background-image: url(../img/video1.jpg);
+}
+
+#video2 {
+    background-image: url(../img/video2.jpg);
+}
+
+#video3 {
+    background-image: url(../img/video3.jpg);
+}
+
+/* Footer section */
+
+footer {
+    margin-left: 79px;
+}
+
+/* Awards section */
+
+#awards {
+    display: grid;
+    row-gap: 70px;
+    background-color: white;
+    margin-left: -79px;
+    border-width: 180px 77px;
+    border-color: white;
+    border-style: solid;
+}
+
+.award-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+/* Contact info section */
+
+
+#contact {
+    background-color: black;
+    margin-left: -79px;
+    border-width: 180px 77px;
+    border-color: black;
+    border-style: solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#contact p {
+    line-height: 1.25em;
+    font-size: 44px;
+    color: white;
+    font-weight: bold;
+}
+
+#copyright-info {
+    background-color: black;
+    margin-left: -79px;
+    border-width: 0px 77px;
+    border-color: black;
+    border-style: solid;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    color: white;
+}

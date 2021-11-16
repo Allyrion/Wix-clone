@@ -99,3 +99,73 @@ a {
     font-size: 24px;
     font-weight: lighter;
 }
+
+.video-box {
+    display: grid;
+}
+
+.video-image {
+    display: grid;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 80px;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.fa-play-circle {
+    color: white;
+}
+
+.video-text {
+    text-align: center;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 11.5px;
+    max-height: 54px;
+    font-weight: bold;
+    margin-right: 80px;
+    color: black;
+}
+
+.btn-secondary {
+    background-color: #15e0fb;
+    color: black;
+    font-size: 20px;
+    max-width: 292px;
+    align-self: center;
+    justify-self: center;
+    width: 284px;
+    height: 45px;
+    align-content: center;
+    display: grid;
+}
+
+.btn-secondary a {
+    padding: 40px;
+}
+
+.btn-secondary:hover {
+    background-color: rgba(217, 251, 255);
+    border-color: transparent;
+    transition: 0.3s;
+}
+
+.award-center {
+    justify-self: center;
+}
+
+.award-end {
+    justify-self: end;
+}
+
+.animate__fadeInUp {
+    --animate-duration: 1.5s;
+  }
