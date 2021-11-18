@@ -3,8 +3,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 1920px;
-    height: 1036px;
+    width: 100vw;
+    height: 100vh;
     overflow: hidden;
 }
 
@@ -33,6 +33,10 @@ nav ul {
 
 nav a {
     color: white;
+}
+
+nav a:hover {
+    color: #15e0fb;
 }
 
 #nav-grid {
@@ -89,9 +93,13 @@ main {
 }
 
 #about-text {
-    padding: 100px 350px 200px 150px;
+    padding: 100px 200px 150px;
     display: grid;
     row-gap: 50px;
+}
+
+#portrait-small {
+    display: none;
 }
 
 /* Publications section */
