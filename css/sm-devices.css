@@ -2,6 +2,7 @@
 
     html, body {
         max-width: 100%;
+        overflow-x: hidden;
     }
 
     main {
@@ -96,6 +97,10 @@
         float: none;
         display: block;
         text-align: left;
+    }
+
+    .nav.responsive a:hover {
+        color: #15e0fb;
     }
 
     /* Hero image */
