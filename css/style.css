@@ -131,7 +131,6 @@ main {
 }
 
 .slideshow-container {
-    justify-self: end;
     justify-self: center;
 }
 
