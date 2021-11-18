@@ -21,6 +21,10 @@ nav {
     
 }
 
+#hamburger {
+    display: none;
+}
+
 nav ul {
     list-style: none;
     justify-items: right;

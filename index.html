@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/sm-devices.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <script src="js/slides.js"></script>
+    <script src="js/nav.js"></script>
     <title>Motivational Speaker</title>
 </head>
 <body class="helvetica">
@@ -20,7 +22,7 @@
                     <a class="text-white font-light" href="index.html">Researcher, <br> Author & Speaker</a>
                 </div>
             </div>
-            <nav>
+            <nav class="nav" id="nav">
                 <ul id="nav-grid" class="grid text-white">
                     <li><a class="text-blue" href="index.html">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -29,6 +31,7 @@
                     <li><a href="#blog">Blog</a></li>
                 </ul>
                 <a class="btn btn-primary" href="">Book Dr. Avens</a>
+                <a id="hamburger" href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></a>
             </nav>
             
         </header>
