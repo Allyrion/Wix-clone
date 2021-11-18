@@ -42,6 +42,10 @@
         font-size: 40px;
     }
 
+    #nav-grid {
+        grid-template-columns: 1fr;
+    }
+
     .nav li, .nav .btn {
         font-size: 20px;
     }
@@ -62,6 +66,7 @@
         display: inline-block;
         padding-top: 0px;
         margin-top: 0px;
+        position: absolute;
     }
 
     .nav a.icon {
@@ -115,7 +120,7 @@
 
     #hero-section h1 {
         font-size: 31px;
-        margin: 130px 0px 20px 30px;
+        margin: 300px 0px 20px 30px;
     }
 
     
