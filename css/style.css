@@ -203,6 +203,7 @@ footer {
     border-width: 180px 77px;
     border-color: white;
     border-style: solid;
+    border-top-width: 0px;
 }
 
 .award-grid {
